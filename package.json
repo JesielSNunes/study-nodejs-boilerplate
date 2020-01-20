@@ -8,7 +8,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm test"
+      "pre-push": "npm test",
+      "post-checkout": "cp -u .env.example .env && npm install"
     }
   },
   "author": "Jesiel S. Nunes",
