@@ -1,13 +1,13 @@
 {
-  "name": "projecttest",
+  "name": "study-nodejs-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A ideia de criar este Boilerplate de NodeJS é para aprender mais sobre JS, criar algo novo e diferente e ensinar alguns amigos o NodeJS.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jesiel S. Nunes",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
     "require-dir": "^1.2.0"
